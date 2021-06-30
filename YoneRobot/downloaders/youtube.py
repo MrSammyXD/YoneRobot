@@ -3,7 +3,7 @@ from os import path
 from youtube_dl import YoutubeDL
 
 
-from YoneRobot.helpers.errors import DurationLimitError
+from .helpers.errors import DurationLimitError
 
 ytdl = YoutubeDL(
     {
