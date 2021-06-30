@@ -31,7 +31,7 @@ async def _(event):
         return
     if event.is_group:
      if not (await is_register_admin(event.input_chat, event.message.sender_id)):
-       await event.reply("🚨 Need Admin Pewer.. You can't use this command.. But you can use in my pm")
+       await event.reply("🚨 Need Admin to be an Admin.. You can't use this command.. But you can use in my pm")
        return
 
     input_str = event.pattern_match.group(1)
@@ -73,3 +73,18 @@ async def _(event):
             event.chat_id, "k.mp3", voice_note=True, reply_to=reply_to_id
         )
         os.remove("k.mp3")
+
+__help__ = """
+I can convert text to voice and voice to text..
+ ❍ /tts <lang code>*:* Reply to any message to get text to speech output
+ ❍ /stt*:* Type in reply to a voice message(support english only) to extract text from it.
+*Language Codes*
+`af,am,ar,az,be,bg,bn,bs,ca,ceb,co,cs,cy,da,de,el,en,eo,es,
+et,eu,fa,fi,fr,fy,ga,gd,gl,gu,ha,haw,hi,hmn,hr,ht,hu,hy,
+id,ig,is,it,iw,ja,jw,ka,kk,km,kn,ko,ku,ky,la,lb,lo,lt,lv,mg,mi,mk,
+ml,mn,mr,ms,mt,my,ne,nl,no,ny,pa,pl,ps,pt,ro,ru,sd,si,sk,sl,
+sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,
+vi,xh,yi,yo,zh,zh_CN,zh_TW,zu`
+"""
+
+__mod_name__ = "TTS"
