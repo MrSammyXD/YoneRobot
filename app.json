@@ -1,19 +1,20 @@
 {
-      "name": "YoneRobot",
+      "name": "JNC",
       "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "yone"
+         "jnc",
+         "anime"
       ],   
-   "repository": "https://github.com/noob-kittu/YoneRobot",
+   "repository": "https://github.com/jnckmax/YoneRobot-org/tree/patch-3",
    "stack": "container",
    "addons": [
       {
          "options": {
-            "version": "12"
+            "version": "13"
          },
          "plan": "heroku-postgresql"
       }
