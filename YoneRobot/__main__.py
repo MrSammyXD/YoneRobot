@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow` [🤗](https://telegra.ph/file/443a0e87e701d9f2f9451.jpg) `My name is` *Petricia*
+`Hellow` [🤗](https://telegra.ph/file/74ee28bc13baf42a03865.jpg) `My name is` *JNC*
 `I'm here to help you manage your groups! Hit` *COMMANDS*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD SPARROW TO YOUR GROUP ➕️", url="t.me/Patrici_a_bot?startgroup=true"),
+            text=" ✷ ADD ME TO YOUR GROUP ✷ ", url="t.me/Patrici_a_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ABOUT", callback_data="yone_"),
