@@ -84,14 +84,14 @@ buttons = [
             text="🔸 ADD ME TO YOUR GROUP 🔸", url="t.me/Yone_Robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ABOUT❗", callback_data="yone_"),
+        InlineKeyboardButton(text="ABOUT ℹ️", callback_data="yone_"),
         InlineKeyboardButton(text="COMMANDS ⁉️", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="OWNER ⚠️", url="https://t.me/kmax_01"),
+            text="UPDATES ⚠️", url="https://t.me/jnc_updates"),
         InlineKeyboardButton(
-            text="SUPPORT🤍", url="https://t.me/jnc_Support"
+            text="SUPPORT 🤍", url="https://t.me/jnc_Support"
         ),
     ],
     [
