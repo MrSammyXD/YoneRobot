@@ -387,7 +387,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😘 I'm *JNC*
+            text= "Hi..😘 I'm *JNC*"
                  \nHere is the [Source Code](https://telegra.ph/file/379bb1c39e71f9e612c70.mp4) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
