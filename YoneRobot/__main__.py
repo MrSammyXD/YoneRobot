@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 `Hellow` [🤗](https://telegra.ph/file/443a0e87e701d9f2f9451.jpg) `My name is` *Petricia*
-`I'm here to help you manage your groups! Hit` *📚Commands*   
+`I'm here to help you manage your groups! Hit` *COMMANDS*   
 """
 
 buttons = [
@@ -84,25 +84,29 @@ buttons = [
             text="➕️ ADD SPARROW TO YOUR GROUP ➕️", url="t.me/Patrici_a_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="yone_"),
-        InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="ABOUT", callback_data="yone_"),
+        InlineKeyboardButton(text="COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="🤴 OWNER", url="https://t.me/riyanshika_r"),
+            text="OWNER", url="t.me/kmax_01"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/Patricia_support"
+            text="SUPPORT", url="t.me/jnc_support"
         ),
+    ],
+    [
+        InlineKeyboardButton(
+            text=" REPOSITORY ", url="https://telegra.ph/file/379bb1c39e71f9e612c70.mp4"),
     ],
 ]
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Patricia](https://telegra.ph/file/443a0e87e701d9f2f9451.jpg)
+`Hi.. I'm` [JNC](https://telegra.ph/file/74ee28bc13baf42a03865.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-yone_IMG = "https://telegra.ph/file/443a0e87e701d9f2f9451.jpg"
+yone_IMG = "https://telegra.ph/file/e188377752fe74566c946.jpg"
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -347,15 +351,16 @@ def yone_about_callback(update, context):
     query = update.callback_query
     if query.data == "yone_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *petricia*, a powerful group management bot built to help you manage your group easily.
-                 \n❍ I can restrict users.
-                 \n❍ I can greet users with customizable welcome messages and even set a group's rules.
-                 \n❍ I have an advanced anti-flood system.
-                 \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_Petricia licensed under the GNU General Public License v3.
-                 \n\nIf you have any question about yone, let us know at .""",
+            text="I'm *JNC*, a powerful group management bot built to help you manage your group easily."
+                 \nᐛ I can restrict users.
+                 \nᐛ I can greet users with customizable welcome messages and even set a group's rules.
+                 \nᐛ I have an advanced anti-flood system.
+                 \nᐛ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
+                 \nᐛ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
+                 \nᐛ I check for admins' permissions before executing any command and more stuffs
+                 \n\n_JNC is licensed under the GNU General Public License v3.
+                 \nHere is the [REPOSITORY](https://telegra.ph/file/379bb1c39e71f9e612c70.mp4).
+                 \n\nIf you have any question about JNC, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -381,7 +386,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Petricia*
+            text=""" Hi..🤗 I'm *JNC*
                  \nHere is the [Source Code](https://github.com/Bot-support/YoneRobot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
