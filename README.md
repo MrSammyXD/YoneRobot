@@ -1,9 +1,7 @@
 </p>
 
 <p align="center">
-
     <img src="https://telegra.ph/file/74ee28bc13baf42a03865.jpg">
-
 </p>
 
 # QUEEN JNC 
