@@ -544,7 +544,8 @@ When marked as AFK, any mentions will be replied to with a message to say you're
  ❍ /info*:* get information about a user. 
  
 *What F is this health thingy?*
- Come and see [HP System explained](https://t.me/jnc_updates/3)
+ Come and see [HP System explained](https://t.me/jnc_updates/7
+)
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio)
