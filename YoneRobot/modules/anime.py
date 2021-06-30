@@ -563,7 +563,6 @@ Get information about anime, manga or characters from [AniList](anilist.co).
  • `/kaizoku <anime>`*:* search an anime on animekaizoku.com
  • `/kayo <anime>`*:* search an anime on animekayo.com
  • `/airing <anime>`*:* returns anime airing info.
- • /whatanime - reply to gif or video ( you can use whatanime cmd on images to but results may not be accurate .)
  """
 
 ANIME_HANDLER = DisableAbleCommandHandler("anime", anime)
