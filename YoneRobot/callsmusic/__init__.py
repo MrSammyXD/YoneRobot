@@ -1,1 +1,1 @@
-from .callsmusic import pytgcalls, Runn
+from YoneRobot.callsmusic import pytgcalls, Runn
