@@ -3,9 +3,9 @@ from asyncio.queues import QueueEmpty
 from YoneRobot import pbot
 from pyrogram.types import Message
 
-from YoneRobot.callsmusic import callsmusic
-from YoneRobot.helpers.filters import command, other_filters
-from YoneRobot.helpers.decorators import errors, authorized_users_only
+from .callsmusic import callsmusic
+from .helpers.filters import command, other_filters
+from .helpers.decorators import errors, authorized_users_only
 
 
 @pbot.on_message(command("pause") & other_filters)
