@@ -81,7 +81,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="🔸 ADD ME TO YOUR GROUP 🔸", url="t.me/Yone_Robot?startgroup=true"),
+            text="🔸 ADD ME TO YOUR GROUP 🔸", url="t.me/QueenJNC_Bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ABOUT ℹ️", callback_data="yone_"),
