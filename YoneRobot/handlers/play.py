@@ -3,14 +3,14 @@ from os import path
 from YoneRobot import pbot
 from pyrogram.types import Message
 
-from ..callsmusic import callsmusic
-from .. import converter
-from ..downloaders import youtube
-from ..helpers.decorators import errors
-from ..helpers.errors import DurationLimitError
-from ..helpers.filters import command, other_filters
-from ..helpers.gets import get_url, get_file_name
-from .. import queues
+from YoneRobot.callsmusic import callsmusic
+from YoneRobot import converter
+from YoneRobot.downloaders import youtube
+from YoneRobot.helpers.decorators import errors
+from YoneRobot.helpers.errors import DurationLimitError
+from YoneRobot.helpers.filters import command, other_filters
+from YoneRobot.helpers.gets import get_url, get_file_name
+from YoneRobot import queues
 
 
 @pbot.on_message(command("play") & other_filters)
