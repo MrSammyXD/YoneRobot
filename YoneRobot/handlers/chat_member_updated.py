@@ -1,7 +1,7 @@
 from YoneRobot import pbot
 from pyrogram.types import ChatMemberUpdated
 
-from .. import admins
+from YoneRobot import admins
 
 
 @pbot.on_chat_member_updated()
