@@ -95,7 +95,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🔸 REPOSITORY 🔸", url="https://telegra.ph/file/379bb1c39e71f9e612c70.mp4"),
+            text="🔸 ADD JNC MUSIC TO YOUR GROUP🔸", url="https://t.me/QueenJNC_Bot?startgroup=true"),
     ],
 ]
 
