@@ -220,7 +220,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "I'm awake already[🔥](https://telegra.ph/file/e188377752fe74566c946.jpg)\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -388,8 +388,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *jnc*
-                 \nHere is the [Source Code](https://github.com/Bot-support/YoneRobot-org/tree/patch-3) .""",
+            text=""" Hi..🤗 I'm *Jnc*
+                 \nHere is the [Source Code](https://github.com/Bot-support/YoneRobot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
