@@ -362,9 +362,7 @@ def yone_about_callback(update, context):
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_yone's licensed under the GNU General Public License v3.0_
-                 \nHere is the [REPOSITORY🔥](https://telegra.ph/file/379bb1c39e71f9e612c70.mp4).
-                 \n\nIf you have any question about yone, let us know at .""",
+                 \n\nIf you have any question about JNC, let us know at [JNC SUPPORT](https://t.me/jnc_support).
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -390,7 +388,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *yone*
+            text=""" Hi..🤗 I'm *JNC*
                  \nHere is the [Source Code](https://github.com/jnckmax/YoneRobot-org/tree/patch-3) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -426,7 +424,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Help",
+                                text="HELP 🤍",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -437,12 +435,12 @@ def get_help(update: Update, context: CallbackContext):
             )
             return
         update.effective_message.reply_text(
-            "Contact me in PM to get the list of possible commands.",
+            "CONTACT ME IN PM TO GET THE LIST OF POSSIBLE COMMANDS [❤️](https://telegra.ph/file/e188377752fe74566c946.jpg)",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="Help",
+                            text="HELP 🤍",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ]
@@ -685,7 +683,7 @@ def migrate_chats(update: Update, context: CallbackContext):
 def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😘")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
