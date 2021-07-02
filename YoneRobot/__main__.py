@@ -96,7 +96,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🔸 ADD JNC MUSIC TO YOUR GROUP🔸", url="https://t.me/JncMusicBot?startgroup=true"),
+            text="🔸 ADD JNC MUSIC TO YOUR GROUP🔸", url="https://t.me/JncMusicBot"),
     ],
 ]
 
