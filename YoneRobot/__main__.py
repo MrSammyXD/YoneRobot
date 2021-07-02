@@ -221,7 +221,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "I'm awake already [🔥](https://telegra.ph/file/74ee28bc13baf42a03865.jpg)\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "I'm awake already [😘](https://telegra.ph/file/74ee28bc13baf42a03865.jpg) !\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -685,7 +685,7 @@ def migrate_chats(update: Update, context: CallbackContext):
 def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😘")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
