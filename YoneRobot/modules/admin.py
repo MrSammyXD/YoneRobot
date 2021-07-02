@@ -660,8 +660,46 @@ __help__ = """
  ❍ /purge*:* deletes all messages between this and the replied to message.
  ❍ /purge <integer X>*:* deletes the replied message, and X messages following it if replied to a message.
 
+
 *Note:* Night Mode chats get Automatically closed at 12 am(IST)
 and Automatically openned at 6 am(IST) To Prevent Night Spams.
+
+*Note:* BELOW CMD'S ARE FOR DISASTERS ONLY !
+
+*List all special users:*
+ ❍ /dragons*:* Lists all Dragon disasters
+ ❍ /demons*:* Lists all Demon disasters ❍ /tigers*:* Lists all Tigers disasters
+ ❍ /wolves*:* Lists all Wolf disasters
+ ❍ /heroes*:* Lists all Hero Association members
+ ❍ /adddragon*:* Adds a user to Dragon
+ ❍ /adddemon*:* Adds a user to Demon
+ ❍ /addtiger*:* Adds a user to Tiger
+ ❍ /addwolf*:* Adds a user to Wolf
+
+*Ping:*
+ ❍ /ping*:* gets ping time of bot to telegram server
+ ❍ /pingall*:* gets all listed ping times
+
+*Groups Info:*
+ ❍ /groups*:* List the groups with Name, ID, members count as a txt.
+ ❍ /ginfo username/link/ID*:* Pulls info panel for entire group
+
+*Speedtest:*
+ ❍ /speedtest*:* Runs a speedtest and gives you 2 options to choose from, text or image output
+
+*Remote commands:*
+ ❍ /rban*:* user group*:* Remote ban
+ ❍ /runban*:* user group*:* Remote un-ban
+ ❍ /rpunch*:* user group*:* Remote punch
+ ❍ /rmute*:* user group*:* Remote mute
+ ❍ /runmute*:* user group*:* Remote un-mute
+*Note:* disasters only !
+
+*Global Bans:*
+ ❍ /gban <id> <reason>*:* Gbans the user, works by reply too
+ ❍ /ungban*:* Ungbans the user, same usage as gban
+ ❍ /gbanlist*:* Outputs a list of gbanned users
+
 
 ⚠️ `Read from top`
 """
