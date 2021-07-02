@@ -216,10 +216,10 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
-                )
-                else:
+            )
+    else:
         update.effective_message.reply_text(
-            "I'm awake already[🔥](https://telegra.ph/file/e188377752fe74566c946.jpg)\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "I'm awake already 🔥\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
